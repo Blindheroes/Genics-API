@@ -7,7 +7,7 @@ const {
 // - name: String
 // - price: Number
 const Product = Schema({
-  name: { type: String, required: true };
+  name: { type: String, required: true },
   message: { message: String }
 });
 
